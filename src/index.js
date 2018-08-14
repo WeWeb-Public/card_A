@@ -1,6 +1,6 @@
-import section from './section.vue'
+import section from './sectionCardA.vue'
 
-const name = "feature_D";
+const name = "card_A";
 
 const addComponent = function () {
     if (window.vm) {
