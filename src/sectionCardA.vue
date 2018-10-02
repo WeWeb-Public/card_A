@@ -46,9 +46,18 @@ export default {
 	props: {
 		section: Object
 	},
-	methods: {},
+	methods: {
+		init: function (section) {
+			this.section.data.topWwObjs = this.section.data.topWwObjs || [];
+			this.section.data.bottomWwObjs = this.section.data.bottomWwObjs || [];
+			this.section.data.col1 = this.section.data.col1 || [];
+			this.section.data.col2 = this.section.data.col2 || [];
+		}
+	},
 	created: function () { },
-	mounted: function () { }
+	mounted: function () {
+		this.init()
+	}
 };
 </script>
 
@@ -66,7 +75,7 @@ export default {
 }
 
 .card {
-  margin: 20px 0;
+  margin: 20px 8.333333%;
   position: relative;
   min-height: 200px;
   box-shadow: 0 2px 80px 0 rgba(209, 209, 209, 0.5);
@@ -86,9 +95,6 @@ export default {
 }
 
 @media (min-width: 769px) {
-  .card {
-    margin: 20px 8.333333%;
-  }
   .col {
     flex-basis: 50%;
   }
