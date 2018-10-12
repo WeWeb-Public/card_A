@@ -44,7 +44,13 @@
 export default {
 	name: "card_A",
 	props: {
-		section: Object
+		sectionRef: Object
+	},
+	computed: {
+		section() {
+			//return this.sectionRef.wwGet();
+			return this.$store.state.sections[this.sectionRef.id];
+		}
 	},
 	methods: {
 		init: function (section) {
