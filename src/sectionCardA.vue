@@ -1,29 +1,29 @@
 <template>
 
 	<div class="card_A">
-		<wwObject class="background" v-bind:ww-object="section.data.background" ww-category="background"></wwObject>
+		<wwObject class="background" v-bind:ww-object-ref="section.data.background" ww-category="background"></wwObject>
 
 		<!--TOP WWOBJS-->
 		<div class="top-ww-objs">
 			<div class="top-ww-obj" v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId">
-				<wwObject v-bind:ww-object="topWwObj"></wwObject>
+				<wwObject v-bind:ww-object-ref="topWwObj"></wwObject>
 			</div>
 		</div>
 
 		<!--CARD-->
 		<div class="card">
-			<wwObject class="background" v-bind:ww-object="section.data.cardBackground" ww-category="background"></wwObject>
+			<wwObject class="background" v-bind:ww-object-ref="section.data.cardBackground" ww-category="background"></wwObject>
 			<div class="card-content">
 				<!-- COL 1 -->
 				<div class="col">
 					<div class="content" v-for="content in section.data.col1" :key="content.uniqueId">
-						<wwObject v-bind:ww-object="content"></wwObject>
+						<wwObject v-bind:ww-object-ref="content"></wwObject>
 					</div>
 				</div>
 				<!-- COL 2 -->
 				<div class="col">
 					<div class="content" v-for="content in section.data.col2" :key="content.uniqueId">
-						<wwObject v-bind:ww-object="content"></wwObject>
+						<wwObject v-bind:ww-object-ref="content"></wwObject>
 					</div>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 		<!--BOTTOM WWOBJS-->
 		<div class="bottom-ww-objs">
 			<div class="top-ww-obj" v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId">
-				<wwObject v-bind:ww-object="bottomWwObj"></wwObject>
+				<wwObject v-bind:ww-object-ref="bottomWwObj"></wwObject>
 			</div>
 		</div>
 
