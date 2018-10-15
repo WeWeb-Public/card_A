@@ -1,65 +1,65 @@
 <template>
 
-	<div class="card_A">
-		<wwObject class="background" v-bind:ww-object="section.data.background" ww-category="background"></wwObject>
+    <div class="card_A">
+        <wwObject class="background" v-bind:ww-object="section.data.background" v-bind:section="section" ww-category="background"></wwObject>
 
-		<!--TOP WWOBJS-->
-		<div class="top-ww-objs">
-			<div class="top-ww-obj" v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId">
-				<wwObject v-bind:ww-object="topWwObj"></wwObject>
-			</div>
-		</div>
+        <!--TOP WWOBJS-->
+        <div class="top-ww-objs">
+            <div class="top-ww-obj" v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId">
+                <wwObject v-bind:ww-object="topWwObj" v-bind:section="section"></wwObject>
+            </div>
+        </div>
 
-		<!--CARD-->
-		<div class="card">
-			<wwObject class="background" v-bind:ww-object="section.data.cardBackground" ww-category="background"></wwObject>
-			<div class="card-content">
-				<!-- COL 1 -->
-				<div class="col">
-					<div class="content" v-for="content in section.data.col1" :key="content.uniqueId">
-						<wwObject v-bind:ww-object="content"></wwObject>
-					</div>
-				</div>
-				<!-- COL 2 -->
-				<div class="col">
-					<div class="content" v-for="content in section.data.col2" :key="content.uniqueId">
-						<wwObject v-bind:ww-object="content"></wwObject>
-					</div>
-				</div>
-			</div>
-		</div>
+        <!--CARD-->
+        <div class="card">
+            <wwObject class="background" v-bind:ww-object="section.data.cardBackground" v-bind:section="section" ww-category="background"></wwObject>
+            <div class="card-content">
+                <!-- COL 1 -->
+                <div class="col">
+                    <div class="content" v-for="content in section.data.col1" :key="content.uniqueId">
+                        <wwObject v-bind:ww-object="content" v-bind:section="section"></wwObject>
+                    </div>
+                </div>
+                <!-- COL 2 -->
+                <div class="col">
+                    <div class="content" v-for="content in section.data.col2" :key="content.uniqueId">
+                        <wwObject v-bind:ww-object="content" v-bind:section="section"></wwObject>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<!--BOTTOM WWOBJS-->
-		<div class="bottom-ww-objs">
-			<div class="top-ww-obj" v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId">
-				<wwObject v-bind:ww-object="bottomWwObj"></wwObject>
-			</div>
-		</div>
+        <!--BOTTOM WWOBJS-->
+        <div class="bottom-ww-objs">
+            <div class="top-ww-obj" v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId">
+                <wwObject v-bind:ww-object="bottomWwObj" v-bind:section="section"></wwObject>
+            </div>
+        </div>
 
-	</div>
+    </div>
 </template>
 
 
 <script>
 export default {
-	name: "card_A",
-	props: {
-		section: Object
-	},
-	computed: {
-	},
-	methods: {
-		init: function (section) {
-			this.section.data.topWwObjs = this.section.data.topWwObjs || [];
-			this.section.data.bottomWwObjs = this.section.data.bottomWwObjs || [];
-			this.section.data.col1 = this.section.data.col1 || [];
-			this.section.data.col2 = this.section.data.col2 || [];
-		}
-	},
-	created: function () { },
-	mounted: function () {
-		this.init()
-	}
+    name: "card_A",
+    props: {
+        section: Object
+    },
+    computed: {
+    },
+    methods: {
+        init: function (section) {
+            this.section.data.topWwObjs = this.section.data.topWwObjs || [];
+            this.section.data.bottomWwObjs = this.section.data.bottomWwObjs || [];
+            this.section.data.col1 = this.section.data.col1 || [];
+            this.section.data.col2 = this.section.data.col2 || [];
+        }
+    },
+    created: function () { },
+    mounted: function () {
+        this.init()
+    }
 };
 </script>
 
