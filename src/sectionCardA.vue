@@ -3,16 +3,16 @@
     <div class="card_A">
 
         <!-- wwManager:start -->
-        <wwSectionEditMenu v-bind:section="section"></wwSectionEditMenu>
+        <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl"></wwSectionEditMenu>
         <!-- wwManager:end -->
 
         <wwObject class="background" v-bind:ww-object="section.data.background" ww-category="background"></wwObject>
 
         <!--TOP WWOBJS-->
         <div class="top-ww-objs">
-            <div class="top-ww-obj" v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId">
-                <wwObject v-bind:ww-object="topWwObj"></wwObject>
-            </div>
+            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.topWwObjs" class="top-ww-obj">
+                <wwObject v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId" v-bind:ww-object="topWwObj"></wwObject>
+            </wwLayoutColumn>
         </div>
 
         <!--CARD-->
@@ -21,24 +21,24 @@
             <div class="card-content">
                 <!-- COL 1 -->
                 <div class="col">
-                    <div class="content" v-for="content in section.data.col1" :key="content.uniqueId">
-                        <wwObject v-bind:ww-object="content"></wwObject>
-                    </div>
+                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col1" class="content">
+                        <wwObject v-for="content in section.data.col1" :key="content.uniqueId" v-bind:ww-object="content"></wwObject>
+                    </wwLayoutColumn>
                 </div>
                 <!-- COL 2 -->
                 <div class="col">
-                    <div class="content" v-for="content in section.data.col2" :key="content.uniqueId">
-                        <wwObject v-bind:ww-object="content"></wwObject>
-                    </div>
+                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col2" class="content">
+                        <wwObject v-for="content in section.data.col2" :key="content.uniqueId" v-bind:ww-object="content"></wwObject>
+                    </wwLayoutColumn>
                 </div>
             </div>
         </div>
 
         <!--BOTTOM WWOBJS-->
         <div class="bottom-ww-objs">
-            <div class="top-ww-obj" v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId">
-                <wwObject v-bind:ww-object="bottomWwObj"></wwObject>
-            </div>
+            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.bottomWwObjs" class="top-ww-obj">
+                <wwObject v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId" v-bind:ww-object="bottomWwObj"></wwObject>
+            </wwLayoutColumn>
         </div>
 
     </div>
@@ -53,17 +53,15 @@ export default {
     },
     data() {
         return {
-            section: this.sectionCtrl.get()
         }
     },
     computed: {
+        section() {
+            return this.sectionCtrl.get();
+        }
     },
     methods: {
-        init: function (section) {
-            this.section.data.topWwObjs = this.section.data.topWwObjs || [];
-            this.section.data.bottomWwObjs = this.section.data.bottomWwObjs || [];
-            this.section.data.col1 = this.section.data.col1 || [];
-            this.section.data.col2 = this.section.data.col2 || [];
+        init: function () {
         }
     },
     created: function () { },
