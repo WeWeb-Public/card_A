@@ -10,7 +10,7 @@
 
         <!--TOP WWOBJS-->
         <div class="top-ww-objs">
-            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.topWwObjs" class="top-ww-obj">
+            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.topWwObjs" class="top-ww-obj" @ww-add="add(section.data.topWwObjs, $event)" @ww-remove="remove(section.data.topWwObjs, $event)">
                 <wwObject v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId" v-bind:ww-object="topWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -21,13 +21,13 @@
             <div class="card-content">
                 <!-- COL 1 -->
                 <div class="col">
-                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col1" class="content">
+                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col1" class="content" @ww-add="add(section.data.col1, $event)" @ww-remove="remove(section.data.col1, $event)">
                         <wwObject v-for="content in section.data.col1" :key="content.uniqueId" v-bind:ww-object="content"></wwObject>
                     </wwLayoutColumn>
                 </div>
                 <!-- COL 2 -->
                 <div class="col">
-                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col2" class="content">
+                    <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.col2" class="content" @ww-add="add(section.data.col2, $event)" @ww-remove="remove(section.data.col2, $event)">
                         <wwObject v-for="content in section.data.col2" :key="content.uniqueId" v-bind:ww-object="content"></wwObject>
                     </wwLayoutColumn>
                 </div>
@@ -36,7 +36,7 @@
 
         <!--BOTTOM WWOBJS-->
         <div class="bottom-ww-objs">
-            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.bottomWwObjs" class="top-ww-obj">
+            <wwLayoutColumn tag='div' ww-default="ww-image" :ww-list="section.data.bottomWwObjs" class="top-ww-obj" @ww-add="add(section.data.bottomWwObjs, $event)" @ww-remove="remove(section.data.bottomWwObjs, $event)">
                 <wwObject v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId" v-bind:ww-object="bottomWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -61,13 +61,52 @@ export default {
         }
     },
     methods: {
-        init: function () {
+        initData() {
+            //Init objects
+            let needUpdate = false;
+            if (!this.section.data.background) {
+                this.section.data.background = wwLib.wwObject.getDefault({ type: 'ww-color', data: { color: 'white' } });
+                needUpdate = true;
+            }
+            if (!this.section.data.cardBackground) {
+                this.section.data.cardBackground = wwLib.wwObject.getDefault({ type: 'ww-color', data: { color: 'white' } });
+                needUpdate = true;
+            }
+            if (_.isEmpty(this.section.data.topWwObjs)) {
+                this.section.data.topWwObjs = [];
+                needUpdate = true;
+            }
+            if (_.isEmpty(this.section.data.bottomWwObjs)) {
+                this.section.data.bottomWwObjs = [];
+                needUpdate = true;
+            }
+            if (_.isEmpty(this.section.data.col1)) {
+                this.section.data.col1 = [];
+                needUpdate = true;
+            }
+            if (_.isEmpty(this.section.data.col2)) {
+                this.section.data.col2 = [];
+                needUpdate = true;
+            }
+            if (needUpdate) {
+                this.sectionCtrl.update(this.section);
+            }
+        },
+        add(list, options) {
+            list.splice(options.index, 0, options.wwObject);
+
+            this.sectionCtrl.update(this.section);
+        },
+        remove(list, options) {
+            list.splice(options.index, 1);
+
+            this.sectionCtrl.update(this.section);
         }
     },
-    created: function () { },
-    mounted: function () {
-        this.init()
-    }
+    created: function () {
+        this.initData();
+    },
+    mounted: function () { }
 };
 </script>
 
@@ -82,6 +121,11 @@ export default {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.top-ww-objs,
+.bottom-ww-objs {
+  position: relative;
 }
 
 .card {
