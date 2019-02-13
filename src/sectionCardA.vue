@@ -47,7 +47,7 @@
 
 <script>
 export default {
-    name: "card_A",
+    name: "__COMPONENT_NAME__",
     props: {
         sectionCtrl: Object
     },
