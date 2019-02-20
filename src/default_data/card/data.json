@@ -1,0 +1,847 @@
+{
+    "name": "template",
+    "background": {
+        "uniqueId": 4653818613,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "transparent",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
+                "color": "white"
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {},
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {},
+        "new": false
+    },
+    "cardBackground": {
+        "uniqueId": 9633750897,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "transparent",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
+                "color": "white"
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {},
+        "new": false
+    },
+    "topWwObjs": [],
+    "bottomWwObjs": [],
+    "col1": [
+        {
+            "uniqueId": 10448572725,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-columns",
+                "data": {
+                    "config": {
+                        "count": 1,
+                        "xs": {
+                            "height": "30",
+                            "ignore": false,
+                            "cols": [
+                                {
+                                    "offset": "5",
+                                    "width": "90",
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ],
+                                    "align": "2"
+                                }
+                            ],
+                            "unit": "%"
+                        },
+                        "sm": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "md": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "lg": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "height": null
+                    },
+                    "columns": [
+                        {
+                            "background": {
+                                "uniqueId": 15268509339,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-color",
+                                    "data": {
+                                        "backgroundColor": "transparent",
+                                        "style": {
+                                            "borderRadius": 0,
+                                            "borderWidth": 0,
+                                            "borderColor": null,
+                                            "borderStyle": null,
+                                            "boxShadow": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "b": 0,
+                                                "s": 0,
+                                                "c": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": -1,
+                                "paddings": {},
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {},
+                                "new": false
+                            },
+                            "wwObjects": [
+                                {
+                                    "uniqueId": 10339312909,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-text",
+                                        "data": {
+                                            "text": {
+                                                "fr_FR": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\"><b data-v-6bccd5ee=\"\"><span data-v-6bccd5ee=\"\" style=\"font-size:1.3rem\">This is the card section</span></b></span></div>"
+                                            },
+                                            "tag": "div",
+                                            "align": "",
+                                            "font": "",
+                                            "size": "",
+                                            "color": "",
+                                            "classes": [],
+                                            "children": []
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 11827985557,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 5485828343,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 11815033584,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-text",
+                                        "data": {
+                                            "text": {
+                                                "fr_FR": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>"
+                                            },
+                                            "tag": "div",
+                                            "align": "",
+                                            "font": "",
+                                            "size": "",
+                                            "color": "",
+                                            "classes": [],
+                                            "children": []
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 5,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 14149269000,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-row",
+                                        "data": {
+                                            "wwObjects": [
+                                                {
+                                                    "uniqueId": 13297789927,
+                                                    "wwVersion": 3,
+                                                    "content": {
+                                                        "type": "ww-icon",
+                                                        "data": {
+                                                            "icon": "fas fa-box",
+                                                            "style": {
+                                                                "color": "#FFFFFF",
+                                                                "backgroundColor": "#64B5F6",
+                                                                "gradient": {},
+                                                                "borderRadius": 50,
+                                                                "borderWidth": 0,
+                                                                "borderColor": "#000000",
+                                                                "borderStyle": "none",
+                                                                "boxShadow": {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "b": 0,
+                                                                    "s": 0,
+                                                                    "c": ""
+                                                                },
+                                                                "size": 60,
+                                                                "fontSize": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    "link": {
+                                                        "type": "none",
+                                                        "data": {}
+                                                    },
+                                                    "ratio": -1,
+                                                    "paddings": {},
+                                                    "hidden": false,
+                                                    "tags": [],
+                                                    "children": {},
+                                                    "data": {},
+                                                    "anim": {},
+                                                    "new": false
+                                                },
+                                                {
+                                                    "uniqueId": 14273558344,
+                                                    "wwVersion": 3,
+                                                    "content": {
+                                                        "type": "ww-icon",
+                                                        "data": {
+                                                            "icon": "fas fa-boxes",
+                                                            "style": {
+                                                                "color": "#FFFFFF",
+                                                                "backgroundColor": "#FFA000",
+                                                                "gradient": {},
+                                                                "borderRadius": 50,
+                                                                "borderWidth": 0,
+                                                                "borderColor": "#000000",
+                                                                "borderStyle": "none",
+                                                                "boxShadow": {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "b": 0,
+                                                                    "s": 0,
+                                                                    "c": ""
+                                                                },
+                                                                "size": 60,
+                                                                "fontSize": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    "link": {
+                                                        "type": "none",
+                                                        "data": {}
+                                                    },
+                                                    "ratio": -1,
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 27,
+                                                            "right": 27,
+                                                            "bottom": 0
+                                                        }
+                                                    },
+                                                    "hidden": false,
+                                                    "tags": [],
+                                                    "children": {},
+                                                    "data": {},
+                                                    "anim": {},
+                                                    "new": false
+                                                },
+                                                {
+                                                    "uniqueId": 2667313363,
+                                                    "wwVersion": 3,
+                                                    "content": {
+                                                        "type": "ww-icon",
+                                                        "data": {
+                                                            "icon": "fas fa-rocket",
+                                                            "style": {
+                                                                "color": "#FFFFFF",
+                                                                "backgroundColor": "#EC407A",
+                                                                "gradient": {},
+                                                                "borderRadius": 50,
+                                                                "borderWidth": 0,
+                                                                "borderColor": "#000000",
+                                                                "borderStyle": "none",
+                                                                "boxShadow": {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "b": 0,
+                                                                    "s": 0,
+                                                                    "c": ""
+                                                                },
+                                                                "size": 60,
+                                                                "fontSize": 20
+                                                            }
+                                                        }
+                                                    },
+                                                    "link": {
+                                                        "type": "none",
+                                                        "data": {}
+                                                    },
+                                                    "ratio": -1,
+                                                    "paddings": {},
+                                                    "hidden": false,
+                                                    "tags": [],
+                                                    "children": {},
+                                                    "data": {},
+                                                    "anim": {},
+                                                    "new": false
+                                                }
+                                            ],
+                                            "align": "center",
+                                            "justify": "center"
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 30,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 4449259067,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 3970391184,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 6481010561,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 4669121268,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 7173147750,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                },
+                                {
+                                    "uniqueId": 8638250943,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-video",
+                                        "data": {
+                                            "provider": "local",
+                                            "id": "https://wewebprod.s3-eu-west-1.amazonaws.com/designs/2/sections/7vR07WitdkyFFqzV39C1Hw6oMODecsvx.mp4",
+                                            "loop": false,
+                                            "controls": true,
+                                            "muted": false,
+                                            "autoplay": false,
+                                            "showinfo": true,
+                                            "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
+                                            "alt": {
+                                                "fr_FR": "Une vidéo"
+                                            },
+                                            "videoRatio": 1.7777777777777777
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {},
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {},
+            "new": false
+        }
+    ],
+    "col2": [
+        {
+            "uniqueId": 9081219927,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-columns",
+                "data": {
+                    "config": {
+                        "count": 1,
+                        "xs": {
+                            "height": 0,
+                            "ignore": false,
+                            "cols": [
+                                {
+                                    "offset": "5",
+                                    "width": "90",
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ],
+                                    "align": "1"
+                                }
+                            ],
+                            "unit": "%"
+                        },
+                        "sm": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "md": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "lg": {
+                            "ignore": true,
+                            "cols": null,
+                            "height": 0,
+                            "unit": "%"
+                        },
+                        "height": null
+                    },
+                    "columns": [
+                        {
+                            "background": {
+                                "uniqueId": 9995428199,
+                                "wwVersion": 3,
+                                "content": {
+                                    "type": "ww-color",
+                                    "data": {
+                                        "backgroundColor": "transparent",
+                                        "style": {
+                                            "borderRadius": 0,
+                                            "borderWidth": 0,
+                                            "borderColor": null,
+                                            "borderStyle": null,
+                                            "boxShadow": {
+                                                "x": 0,
+                                                "y": 0,
+                                                "b": 0,
+                                                "s": 0,
+                                                "c": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "link": {
+                                    "type": "none",
+                                    "data": {}
+                                },
+                                "ratio": -1,
+                                "paddings": {},
+                                "hidden": false,
+                                "tags": [],
+                                "children": {},
+                                "data": {},
+                                "anim": {},
+                                "new": false
+                            },
+                            "wwObjects": [
+                                {
+                                    "uniqueId": 1900090929,
+                                    "wwVersion": 3,
+                                    "content": {
+                                        "type": "ww-text",
+                                        "data": {
+                                            "text": {
+                                                "fr_FR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n"
+                                            },
+                                            "tag": "div",
+                                            "align": "",
+                                            "font": "",
+                                            "size": "",
+                                            "color": "",
+                                            "classes": [],
+                                            "children": []
+                                        }
+                                    },
+                                    "link": {
+                                        "type": "none",
+                                        "data": {}
+                                    },
+                                    "ratio": -1,
+                                    "paddings": {},
+                                    "hidden": false,
+                                    "tags": [],
+                                    "children": {},
+                                    "data": {},
+                                    "anim": {},
+                                    "new": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {},
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {},
+            "new": false
+        }
+    ]
+}
