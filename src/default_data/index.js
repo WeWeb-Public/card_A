@@ -2,10 +2,10 @@ module.exports = [
     {
         name: 'card',
         storeName: {
-            en_GB: "Card section"
+            en: "Card section"
         },
         storeDesc: {
-            en_GB: "To display main message or a newletter input"
+            en: "To display main message or a newletter input"
         }
     }
 ]

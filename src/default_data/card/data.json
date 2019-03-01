@@ -189,7 +189,7 @@
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr_FR": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\"><b data-v-6bccd5ee=\"\"><span data-v-6bccd5ee=\"\" style=\"font-size:1.3rem\">This is the card section</span></b></span></div>"
+                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\"><b data-v-6bccd5ee=\"\"><span data-v-6bccd5ee=\"\" style=\"font-size:1.3rem\">This is the card section</span></b></span></div>"
                                             },
                                             "tag": "div",
                                             "align": "",
@@ -228,7 +228,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -261,7 +261,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -286,7 +286,7 @@
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr_FR": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>"
+                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>"
                                             },
                                             "tag": "div",
                                             "align": "",
@@ -491,7 +491,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -524,7 +524,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -557,7 +557,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -590,7 +590,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -623,7 +623,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -656,7 +656,7 @@
                                             "showinfo": true,
                                             "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                                             "alt": {
-                                                "fr_FR": "Une vidéo"
+                                                "fr": "Une vidéo"
                                             },
                                             "videoRatio": 1.7777777777777777
                                         }
@@ -801,7 +801,7 @@
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr_FR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n"
+                                                "fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n"
                                             },
                                             "tag": "div",
                                             "align": "",
