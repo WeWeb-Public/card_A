@@ -1,43 +1,7 @@
 {
     "name": "template",
     "background": {
-        "uniqueId": 4653818613,
-        "wwVersion": 3,
-        "content": {
-            "type": "ww-color",
-            "data": {
-                "backgroundColor": "transparent",
-                "style": {
-                    "borderRadius": 0,
-                    "borderWidth": 0,
-                    "borderColor": null,
-                    "borderStyle": null,
-                    "boxShadow": {
-                        "x": 0,
-                        "y": 0,
-                        "b": 0,
-                        "s": 0,
-                        "c": ""
-                    }
-                },
-                "color": "white"
-            }
-        },
-        "link": {
-            "type": "none",
-            "data": {}
-        },
-        "ratio": -1,
-        "paddings": {},
-        "hidden": false,
-        "tags": [],
-        "children": {},
-        "data": {},
-        "anim": {},
-        "new": false
-    },
-    "cardBackground": {
-        "uniqueId": 9633750897,
+        "uniqueId": 5273765998,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -70,6 +34,61 @@
                 "left": 0,
                 "right": 0,
                 "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {},
+        "new": false
+    },
+    "cardBackground": {
+        "uniqueId": 5241002402,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "transparent",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
+                "color": "white"
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
             }
         },
         "hidden": false,
@@ -83,7 +102,7 @@
     "bottomWwObjs": [],
     "col1": [
         {
-            "uniqueId": 10448572725,
+            "uniqueId": 15137454230,
             "wwVersion": 3,
             "content": {
                 "type": "ww-columns",
@@ -147,7 +166,7 @@
                     "columns": [
                         {
                             "background": {
-                                "uniqueId": 15268509339,
+                                "uniqueId": 12051017804,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-color",
@@ -173,7 +192,20 @@
                                     "data": {}
                                 },
                                 "ratio": -1,
-                                "paddings": {},
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
                                 "hidden": false,
                                 "tags": [],
                                 "children": {},
@@ -183,13 +215,14 @@
                             },
                             "wwObjects": [
                                 {
-                                    "uniqueId": 10339312909,
+                                    "uniqueId": 979706446,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\"><b data-v-6bccd5ee=\"\"><span data-v-6bccd5ee=\"\" style=\"font-size:1.3rem\">This is the card section</span></b></span></div>"
+                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\"><b data-v-6bccd5ee=\"\"><span data-v-6bccd5ee=\"\" style=\"font-size:1.3rem\">This is the card section</span></b></span></div>",
+                                                "en": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\"><b><span style=\"font-size:1.3rem\">This is the card section</span></b></span></div>"
                                             },
                                             "tag": "div",
                                             "align": "",
@@ -205,7 +238,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 15
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -214,7 +260,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 11827985557,
+                                    "uniqueId": 10722513048,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -238,7 +284,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -247,7 +306,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 5485828343,
+                                    "uniqueId": 8464822898,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -271,7 +330,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -280,13 +352,14 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 11815033584,
+                                    "uniqueId": 4085472565,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>"
+                                                "fr": "<div data-v-6bccd5ee=\"\" style=\"text-align: center;\"><span data-v-6bccd5ee=\"\" style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>",
+                                                "en": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\">Use it to display information of any kind in an elegant card</span></div>"
                                             },
                                             "tag": "div",
                                             "align": "",
@@ -308,6 +381,12 @@
                                             "left": 0,
                                             "right": 0,
                                             "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
                                         }
                                     },
                                     "hidden": false,
@@ -318,14 +397,14 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 14149269000,
+                                    "uniqueId": 14846608024,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-row",
                                         "data": {
                                             "wwObjects": [
                                                 {
-                                                    "uniqueId": 13297789927,
+                                                    "uniqueId": 8967584591,
                                                     "wwVersion": 3,
                                                     "content": {
                                                         "type": "ww-icon",
@@ -356,7 +435,20 @@
                                                         "data": {}
                                                     },
                                                     "ratio": -1,
-                                                    "paddings": {},
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
                                                     "hidden": false,
                                                     "tags": [],
                                                     "children": {},
@@ -365,7 +457,7 @@
                                                     "new": false
                                                 },
                                                 {
-                                                    "uniqueId": 14273558344,
+                                                    "uniqueId": 11568606555,
                                                     "wwVersion": 3,
                                                     "content": {
                                                         "type": "ww-icon",
@@ -402,6 +494,12 @@
                                                             "left": 27,
                                                             "right": 27,
                                                             "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 20,
+                                                            "right": 0,
+                                                            "bottom": 0
                                                         }
                                                     },
                                                     "hidden": false,
@@ -412,7 +510,7 @@
                                                     "new": false
                                                 },
                                                 {
-                                                    "uniqueId": 2667313363,
+                                                    "uniqueId": 9512829496,
                                                     "wwVersion": 3,
                                                     "content": {
                                                         "type": "ww-icon",
@@ -443,7 +541,20 @@
                                                         "data": {}
                                                     },
                                                     "ratio": -1,
-                                                    "paddings": {},
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 20,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
                                                     "hidden": false,
                                                     "tags": [],
                                                     "children": {},
@@ -477,7 +588,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 4449259067,
+                                    "uniqueId": 13133627969,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -501,7 +612,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -510,7 +634,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 3970391184,
+                                    "uniqueId": 8042902635,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -534,7 +658,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -543,7 +680,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 6481010561,
+                                    "uniqueId": 14054809436,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -567,7 +704,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -576,7 +726,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 4669121268,
+                                    "uniqueId": 11232528603,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -600,7 +750,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -609,7 +772,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 7173147750,
+                                    "uniqueId": 13131584757,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -633,7 +796,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -642,7 +818,7 @@
                                     "new": false
                                 },
                                 {
-                                    "uniqueId": 8638250943,
+                                    "uniqueId": 3261674319,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-video",
@@ -666,7 +842,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -684,7 +873,20 @@
                 "data": {}
             },
             "ratio": -1,
-            "paddings": {},
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
             "hidden": false,
             "tags": [],
             "children": {},
@@ -695,7 +897,7 @@
     ],
     "col2": [
         {
-            "uniqueId": 9081219927,
+            "uniqueId": 1061203020,
             "wwVersion": 3,
             "content": {
                 "type": "ww-columns",
@@ -759,7 +961,7 @@
                     "columns": [
                         {
                             "background": {
-                                "uniqueId": 9995428199,
+                                "uniqueId": 11552544029,
                                 "wwVersion": 3,
                                 "content": {
                                     "type": "ww-color",
@@ -785,7 +987,20 @@
                                     "data": {}
                                 },
                                 "ratio": -1,
-                                "paddings": {},
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
                                 "hidden": false,
                                 "tags": [],
                                 "children": {},
@@ -795,13 +1010,14 @@
                             },
                             "wwObjects": [
                                 {
-                                    "uniqueId": 1900090929,
+                                    "uniqueId": 11161683229,
                                     "wwVersion": 3,
                                     "content": {
                                         "type": "ww-text",
                                         "data": {
                                             "text": {
-                                                "fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n"
+                                                "fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+                                                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n"
                                             },
                                             "tag": "div",
                                             "align": "",
@@ -817,7 +1033,20 @@
                                         "data": {}
                                     },
                                     "ratio": -1,
-                                    "paddings": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
                                     "hidden": false,
                                     "tags": [],
                                     "children": {},
@@ -835,7 +1064,20 @@
                 "data": {}
             },
             "ratio": -1,
-            "paddings": {},
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
             "hidden": false,
             "tags": [],
             "children": {},

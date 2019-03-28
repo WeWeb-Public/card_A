@@ -1,6 +1,7 @@
 module.exports = [
     {
         name: 'card',
+        category: 'Features',
         storeName: {
             en: "Card section"
         },
